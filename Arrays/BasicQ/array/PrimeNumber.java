@@ -6,6 +6,7 @@ public class PrimeNumber
 	public static boolean prime(int n )
 	{
 		if(n<0) return false;
+	
 		int count =0;
 		for(int i =1;i<=n;i++)
 		{
